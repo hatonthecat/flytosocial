@@ -12,15 +12,15 @@ db-address: '/gotosocial/storage/sqlite.db'
 ###########################
 ##### ACCOUNTS CONFIG #####
 ###########################
-accounts-registration-open: false
+accounts-registration-open: true
 accounts-allow-custom-css: true
 
 ########################
 ##### MEDIA CONFIG #####
 ########################
 media-remote-cache-days: 7
-media-emoji-local-max-size: 1024000
-media-emoji-remote-max-size: 1024000
+media-emoji-local-max-size: 2048
+media-emoji-remote-max-size: 2048
 
 ##########################
 ##### STORAGE CONFIG #####
@@ -30,8 +30,8 @@ storage-backend: 's3'
 ###########################
 ##### STATUSES CONFIG #####
 ###########################
-statuses-max-chars: 5000
-statuses-cw-max-chars: 200
-statuses-poll-max-options: 10
-statuses-poll-option-max-chars: 150
-statuses-media-max-files: 10
+statuses-max-chars: 120
+statuses-cw-max-chars: 140
+statuses-poll-max-options: 15
+statuses-poll-option-max-chars: 140
+statuses-media-max-files: 1
